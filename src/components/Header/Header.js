@@ -1,11 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { BsChat, BsHeart } from "react-icons/bs";
 import { VscAccount } from "react-icons/vsc";
 import { CiSearch } from "react-icons/ci";
 import { TiShoppingCart } from "react-icons/ti";
 
 function Header() {
+  const navigate = useNavigate();
   return (
     <div className="h-28" style={{ backgroundColor: "#8DC63F" }}>
       <div className="container py-5 px-5 flex items-center justify-between">
@@ -16,10 +17,10 @@ function Header() {
           <Link className="text-gray-100  px-3 py-3 rounded-full  border-2">
             <BsChat />
           </Link>
-          <Link className="text-gray-100  px-3 py-3 rounded-full  border-2">
+          <Link className="text-gray-100  px-3 py-3 rounded-full  border-2" to="/wishList">
             <BsHeart />
           </Link>
-          <Link className="text-gray-100  px-3 py-3 rounded-full  border-2">
+          <Link className="text-gray-100  px-3 py-3 rounded-full  border-2" to="/profile">
             <VscAccount />
           </Link>
         </div>
@@ -27,6 +28,7 @@ function Header() {
       <div
         className="container mx-auto h-14 px-1 py-1 flex  shadow-lg  bg-white rounded-lg border-0"
         style={{ boxShadow: "rgb(60 60 60 / 20%) 3px 4px 10px 0px;" }}
+        onClick={() => navigate('search')}
       >
         <Link className="px-3 py-4 text-lg font-medium ">
           <CiSearch />
