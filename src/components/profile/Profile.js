@@ -1,6 +1,6 @@
 import React from "react";
 import { IoIosArrowBack } from "react-icons/io";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { HiChevronRight } from "react-icons/hi";
 import { IoWalletOutline } from "react-icons/io5";
 import { MdLocalShipping } from "react-icons/md";
@@ -10,6 +10,7 @@ function Profile() {
   const navigate = useNavigate();
   return (
     <>
+
       <div className=" py-2 ">
         <div className="px-4 py-2 border-b border-gray-300">
           <p className="cursor-pointer flex" onClick={() => navigate(-1)}>
@@ -93,7 +94,10 @@ function Profile() {
       </div>
 
       {/* My Account */}
-      <div className="flex flex-col w-11/12 m-auto cursor-pointer bg-slate-100 p-4 mt-5 rounded-lg border">
+
+      <div className="flex flex-col w-11/12 m-auto cursor-pointer bg-slate-100 p-4 mt-5 rounded-lg border"
+        onClick={() => navigate('../myProfile')}
+      >
         <div className="flex justify-between py-2">
           <p className="text-md text-gray-600 font-medium">My Profile</p>
           <p className="text-sm text-gray-500">
@@ -102,7 +106,9 @@ function Profile() {
         </div>
       </div>
       {/* My Address */}
-      <div className="flex flex-col w-11/12 m-auto cursor-pointer bg-slate-100 p-4 mt-5 rounded-lg border">
+      <div className="flex flex-col w-11/12 m-auto cursor-pointer bg-slate-100 p-4 mt-5 rounded-lg border"
+        onClick={() => navigate('../myAddress')}
+      >
         <div className="flex justify-between py-2">
           <p className="text-md text-gray-600 font-medium">My Address</p>
           <p className="text-sm text-gray-500">
@@ -120,7 +126,10 @@ function Profile() {
         </div>
       </div>
       {/* My Vouchers */}
-      <div className="flex flex-col w-11/12 m-auto cursor-pointer bg-slate-100 p-4 mt-5 rounded-lg border">
+      <div className="flex flex-col w-11/12 m-auto cursor-pointer bg-slate-100 p-4 mt-5 rounded-lg border"
+
+        onClick={() => navigate('../myVouchers')}
+      >
         <div className="flex justify-between py-2">
           <p className="text-md text-gray-600 font-medium">My Vouchers</p>
           <p className="text-sm text-gray-500">
@@ -128,6 +137,7 @@ function Profile() {
           </p>
         </div>
       </div>
+
     </>
   );
 }
