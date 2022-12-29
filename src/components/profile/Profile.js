@@ -53,7 +53,7 @@ function Profile() {
       </div>
       {/* order history */}
       <div className="flex flex-col w-11/12 m-auto cursor-pointer bg-slate-100 p-4 mt-5 rounded-lg border">
-        <div className="flex justify-between py-2">
+        <div className="flex justify-between py-2" onClick={() => navigate('../myOrderHistory')}>
           <p className="text-md text-gray-600 font-medium">
             View Order History
           </p>
@@ -118,7 +118,10 @@ function Profile() {
       </div>
       {/* My BankAccount */}
       <div className="flex flex-col w-11/12 m-auto cursor-pointer bg-slate-100 p-4 mt-5 rounded-lg border">
-        <div className="flex justify-between py-2">
+        <div className="flex justify-between py-2"
+
+          onClick={() => navigate('../myBankAccount')}
+        >
           <p className="text-md text-gray-600 font-medium">My Bank Account</p>
           <p className="text-sm text-gray-500">
             <HiChevronRight size={30} className="mt-1" />

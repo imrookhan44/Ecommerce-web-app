@@ -1,36 +1,39 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import headlightBulb from '../../assets/sample/icon_homepage_cat/Headlightbulb.jpg';
+import sunShades from "../../assets/sample/icon_homepage_cat/Sunshades.jpg";
+import wiper from "../../assets/sample/icon_homepage_cat/Wiper.jpg";
+import tyre from "../../assets/sample/icon_homepage_cat/Tyre.jpg";
+import cabinFilter from "../../assets/sample/icon_homepage_cat/Cabinfilter.jpg";
+import blackFriday from "../../assets/sample/banners/Banner1.jpg"
 
 function Category() {
   const categories = [
     {
       id: 1,
       name: "Light Bulbs",
-      image:
-        "https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      image: headlightBulb,
     },
     {
       id: 2,
       name: "Wiper",
-      image:
-        "https://images.unsplash.com/photo-1501389512942-06dcb658c93c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      image: sunShades,
     },
     {
       id: 3,
       name: "engine oil",
-      image:
-        "https://images.unsplash.com/photo-1590227763209-821c686b932f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      image: wiper,
     },
     {
       id: 4,
       name: "tyres",
-      image:
-        "https://images.unsplash.com/photo-1578844251758-2f71da64c96f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+      image: tyre,
     },
     {
       id: 5,
       name: "cabin filter",
       image:
-        "https://images.unsplash.com/photo-1591601642521-51c925207a73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        cabinFilter,
     },
   ];
 
@@ -42,15 +45,15 @@ function Category() {
             <p className="text-xl text-gray-700 ">Product Categories</p>
           </div>
           <div>
-            <a
-              href="http"
+            <Link
+              to='pcategories'
               className="
 
           text-gray-500 text-sm font-semibold hover:text-gray-700
           border-b-2 border-cyan-400 "
             >
               View All &#62;
-            </a>
+            </Link>
           </div>
         </div>
         &nbsp;
@@ -69,9 +72,7 @@ function Category() {
         {/* black friday banner  */}
         <div>
           <img
-            src={
-              "https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-            }
+            src={blackFriday}
             className="w-full h-56 object-cover rounded-t-lg"
             alt="black friday banner"
           />

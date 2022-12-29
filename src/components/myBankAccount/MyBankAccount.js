@@ -1,10 +1,10 @@
-import React from 'react'
-import { AiOutlinePlus } from 'react-icons/ai'
-import { HiChevronRight } from 'react-icons/hi'
-import { IoIosArrowBack } from 'react-icons/io'
-import { useNavigate } from 'react-router-dom'
-function MyAddress() {
-  const navigate = useNavigate()
+import React from "react";
+import { HiChevronRight } from "react-icons/hi";
+import { IoIosArrowBack } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
+import { AiOutlinePlus } from "react-icons/ai";
+function MyBankAccount() {
+  const navigate = useNavigate();
   return (
     <>
       <div className=" py-2 ">
@@ -12,21 +12,22 @@ function MyAddress() {
           <p className="cursor-pointer flex" onClick={() => navigate(-1)}>
             {" "}
             <IoIosArrowBack size={25} style={{ marginTop: "0.20rem" }} /> &nbsp;
-            Address
+            Bank
           </p>
           <div className="bg-gray-200 px-2 py-1 rounded-lg cursor-pointer">
             <AiOutlinePlus size={15} style={{ marginLeft: "6px" }} />
             <p className="text-xs">Add</p>
           </div>
         </div>
+
         <div className="border-b border-grey-200"></div>
       </div>
       <div className="flex flex-col  m-auto cursor-pointer px-2 rounded-lg ">
         <div className="flex justify-between py-2">
-          <div className=''>
-            <p className="text-md text-gray-600 font-medium">Current Address 1</p>
-            <p className='text-sm text-gray-500'>
-              18, Jalan Puteri 4/6, Bandar Puteri, 47100 Puchong, Selangor
+          <div className="">
+            <p className="text-md text-gray-600 font-medium">MAY Bank</p>
+            <p className="text-sm text-gray-500">
+              Olivia Wong, xxxx xxxx xxxx 2030
             </p>
           </div>
 
@@ -35,13 +36,13 @@ function MyAddress() {
           </p>
         </div>
       </div>
-      <div className='border-b'></div>
+      <div className="border-b"></div>
       <div className="flex flex-col  m-auto cursor-pointer px-2 rounded-lg ">
         <div className="flex justify-between py-2">
-          <div className=''>
-            <p className="text-md text-gray-600 font-medium">Current Address </p>
-            <p className='text-sm text-gray-500'>
-              18, Jalan Puteri 4/6, Bandar Puteri, 47100 Puchong, Selangor
+          <div className="">
+            <p className="text-md text-gray-600 font-medium">CIMB Bank</p>
+            <p className="text-sm text-gray-500">
+              Olivia Wong, xxxx xxxx xxxx 2060
             </p>
           </div>
 
@@ -59,7 +60,7 @@ function MyAddress() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default MyAddress
+export default MyBankAccount;
