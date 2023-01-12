@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import headlightBulb from '../../assets/sample/icon_homepage_cat/Headlightbulb.jpg';
+import headlightBulb from "../../assets/sample/icon_homepage_cat/Headlightbulb.jpg";
 import sunShades from "../../assets/sample/icon_homepage_cat/Sunshades.jpg";
 import wiper from "../../assets/sample/icon_homepage_cat/Wiper.jpg";
 import tyre from "../../assets/sample/icon_homepage_cat/Tyre.jpg";
 import cabinFilter from "../../assets/sample/icon_homepage_cat/Cabinfilter.jpg";
-import blackFriday from "../../assets/sample/banners/Banner1.jpg"
-
+import blackFriday from "../../assets/sample/banners/Banner1.jpg";
+import banner2 from "../../assets/sample/banners/Banner2.jpg";
+import banner3 from "../../assets/sample/banners/Banner3.jpg";
 function Category() {
   const categories = [
     {
@@ -32,8 +33,7 @@ function Category() {
     {
       id: 5,
       name: "cabin filter",
-      image:
-        cabinFilter,
+      image: cabinFilter,
     },
   ];
 
@@ -46,7 +46,7 @@ function Category() {
           </div>
           <div>
             <Link
-              to='pcategories'
+              to="pcategories"
               className="
 
           text-gray-500 text-sm font-semibold hover:text-gray-700
@@ -59,22 +59,24 @@ function Category() {
         &nbsp;
         <div className=" gap-2 flex">
           {categories.map((category) => (
-            <div className="bg-white rounded-lg border-0">
+            <div className=" w-full bg-white rounded-lg border-0">
               <img
-                className="w-full h-48 object-cover rounded-t-lg"
+                className="rounded-t-lg"
                 src={category.image}
                 alt={category.name}
+                id="product__image"
               />
             </div>
           ))}
         </div>
         &nbsp;
         {/* black friday banner  */}
-        <div>
+        <div className="w-full">
           <img
             src={blackFriday}
-            className="w-full h-56 object-cover rounded-t-lg"
+            className="rounded-t-lg"
             alt="black friday banner"
+            id="banner"
           />
         </div>
       </div>
@@ -95,11 +97,12 @@ function Category() {
         &nbsp;
         <div className="flex gap-2 overflow-hidden">
           {categories.map((category) => (
-            <div className="bg-white rounded-lg border-0">
+            <div className="w-full bg-white rounded-lg border-0">
               <img
-                className="w-full h-48 object-cover rounded-t-lg"
+                className=" object-cover rounded-t-lg"
                 src={category.image}
                 alt={category.name}
+                id="product__image"
               />
             </div>
           ))}
@@ -110,21 +113,19 @@ function Category() {
           <div>
             <p className="text-xl text-gray-700">Deal of the day</p>
           </div>
-          <div>
+          <div className="w-full">
             <img
-              src={
-                "https://images.unsplash.com/photo-1501389512942-06dcb658c93c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-              }
-              className="w-full h-56 object-cover rounded-t-lg"
+              src={banner2}
+              className="rounded-t-lg"
               alt="black friday banner"
+              id="banner"
             />
             &nbsp;
             <img
-              src={
-                "https://images.unsplash.com/photo-1501389512942-06dcb658c93c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-              }
-              className="w-full h-56 object-cover rounded-t-lg"
+              src={banner3}
+              className="rounded-t-lg"
               alt="black friday banner"
+              id="banner"
             />
           </div>
         </div>
