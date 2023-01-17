@@ -52,7 +52,7 @@ function Profile() {
         </div>
       </div>
       {/* order history */}
-      <div className="flex flex-col w-11/12 m-auto cursor-pointer bg-slate-100 p-4 mt-5 rounded-lg border">
+      <div className="flex flex-col w-11/12  m-auto cursor-pointer bg-slate-100 p-4 mt-5 rounded-lg border ">
         <div className="flex justify-between py-2" onClick={() => navigate('../myOrderHistory')}>
           <p className="text-md text-gray-600 font-medium">
             View Order History
@@ -66,24 +66,28 @@ function Profile() {
         <div
           className="rounded-full  bg-slate-200 h-40 w-40
                 flex items-center justify-center"
+          id="first_icon"
         >
           <IoWalletOutline />
         </div>
         <div
           className="rounded-full  bg-slate-200 h-40 w-40
                 flex items-center justify-center"
+          id="first_icon"
         >
           <MdLocalShipping />
         </div>
         <div
           className="rounded-full  bg-slate-200 h-40 w-40
                 flex items-center justify-center"
+          id="first_icon"
         >
           <BiRectangle />
         </div>
         <div
           className="rounded-full  bg-slate-200 h-40 w-40
                 flex items-center justify-center"
+          id="first_icon"
         >
           <TbStars />
         </div>

@@ -29,6 +29,8 @@ function Header() {
         className="container mx-auto h-14 px-1 py-1 flex  shadow-lg  bg-white rounded-lg border-0"
         style={{ boxShadow: "rgb(60 60 60 / 20%) 3px 4px 10px 0px;" }}
         onClick={() => navigate('search')}
+        id="search__box"
+
       >
         <Link className="px-3 py-4 text-lg font-medium ">
           <CiSearch />

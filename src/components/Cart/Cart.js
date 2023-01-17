@@ -85,7 +85,7 @@ function Cart() {
             </div>
             &nbsp;
             <div className="border-b border-grey-200 px-2"></div>
-            <div className="flex justify-between px-2">
+            <div className="flex justify-between px-2 mx-2">
               <div>
                 <p
                   className="
@@ -106,7 +106,7 @@ function Cart() {
           </div>
           <div
             className="cursor-pointer rounded-lg"
-            style={{ backgroundColor: "#8DC63F" }}
+            style={{ backgroundColor: "#8DC63F", padding: "10px", margin: "0 10px" }}
           >
             <div className="flex justify-between px-2 py-2">
               <div>

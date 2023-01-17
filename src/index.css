@@ -38,4 +38,41 @@ code {
     height: 150px;
   }
 
+  #first_icon {
+    width: 8rem !important;
+    height: 27vh;
+  }
+
+}
+
+@media screen and (max-width: 692px) {
+  #search__box {
+    width: 97%;
+  }
+
+  #first_icon {
+    width: 6rem !important;
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 534px) {
+  #first_icon {
+    width: 4rem !important;
+    height: 15vh;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #first_icon {
+    width: 3.5rem !important;
+    height: 12vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #first_icon {
+    width: 3rem !important;
+    height: 10vh;
+  }
 }
