@@ -39,7 +39,7 @@ function Category() {
 
   return (
     <>
-      <div className=" mx-auto my-16 px-3 py-3">
+      <div className=" mx-auto my-16 px-3 py-3 P-5">
         <div className="flex justify-between ">
           <div>
             <p className="text-xl text-gray-700 ">Product Categories</p>
