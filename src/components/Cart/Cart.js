@@ -105,16 +105,17 @@ function Cart() {
             </div>
           </div>
           <div
-            className="cursor-pointer rounded-lg"
-            style={{ backgroundColor: "#8DC63F", padding: "10px", margin: "0 10px" }}
+            className="cursor-pointer rounded-lg h-12"
+            style={{ backgroundColor: "#8DC63F", padding: "6px", margin: "0 10px", position: "fixed", bottom: "36px", right: "0.7rem", width: "94%" }}
           >
-            <div className="flex justify-between px-2 py-2">
+            <div className="flex justify-between ">
               <div>
-                <p className="text-white text-sm">Total</p>
-                <p className="text-white text-sm">RM60.0</p>
+                <p className="text-white text-xs px-1">Total</p>
+                <p className="text-white text-xs px-1
+                ">RM60.0</p>
               </div>
               <div>
-                <p className="text-white px-2 py-2 text-sm ">Checkout &#62;</p>
+                <p className="text-white px-2 py-2 text-xs ">Checkout &#62;</p>
               </div>
             </div>
           </div>
