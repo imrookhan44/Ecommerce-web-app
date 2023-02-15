@@ -17,7 +17,7 @@ function PCategories() {
   let navigate = useNavigate();
   return (
     <>
-      <div className=" py-2 ">
+      <div className=" py-2 " id="main__div">
         <div className="px-4 py-2 border-b border-gray-300">
           <p className="cursor-pointer flex" onClick={() => navigate(-1)}>
             {" "}
