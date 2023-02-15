@@ -33,7 +33,7 @@ function Category() {
     {
       id: 5,
       name: "cabin filter",
-      image: cabinFilter,
+      image: headlightBulb,
     },
   ];
 
@@ -57,7 +57,7 @@ function Category() {
           </div>
         </div>
         &nbsp;
-        <div className=" gap-2 flex">
+        <div className=" gap-1 flex">
           {categories.map((category) => (
             <div className=" w-full bg-white rounded-lg border-0">
               <img
@@ -95,11 +95,11 @@ function Category() {
           </div>
         </div>
         &nbsp;
-        <div className="flex gap-2 overflow-hidden">
+        <div className=" gap-1 flex">
           {categories.map((category) => (
-            <div className="w-full bg-white rounded-lg border-0">
+            <div className=" w-full bg-white rounded-lg border-0">
               <img
-                className=" object-cover rounded-t-lg"
+                className="rounded-t-lg"
                 src={category.image}
                 alt={category.name}
                 id="product__image"

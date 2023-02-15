@@ -6,7 +6,7 @@ function Recommend() {
       <div>
         <div className="cards">
           <div className="flex">
-            <div className="my-2 px-3 py-3">
+            <div className="my-2 px-3 py-3" id="image__mainDiv">
               <div className="max-w-xs rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
