@@ -39,7 +39,7 @@ function Category() {
 
   return (
     <>
-      <div className=" mx-auto my-16 px-3 py-3 P-5">
+      <div className=" mx-auto my-16 px-3 py-3 P-5" id="main__div">
         <div className="flex justify-between ">
           <div>
             <p className="text-xl text-gray-700 ">Product Categories</p>
@@ -80,7 +80,7 @@ function Category() {
           />
         </div>
       </div>
-      <div className=" mx-auto my-16 px-3 py-3">
+      <div className=" mx-auto my-16 px-3 py-3" id="main__div">
         <div className="flex justify-between ">
           <div>
             <p className="text-xl text-gray-700 ">Proton X50 Body Kit</p>

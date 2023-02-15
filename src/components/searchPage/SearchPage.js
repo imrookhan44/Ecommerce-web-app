@@ -7,7 +7,7 @@ function SearchPage() {
   const navigate = useNavigate();
   return (
     <>
-      <div className=" py-2">
+      <div className=" py-2" >
         <div className="px-4 py-2 border-b border-gray-300 flex">
           <p className="cursor-pointer flex items-center" >
             {" "}
@@ -32,72 +32,73 @@ function SearchPage() {
         </div>
       </div>
       <div className="border-b border-grey-200"></div>
-      <div
-        className="container mx-auto px-4 py-2">
-        <p className='flex text-gray-600'>
-          <FiClock className='mt-1' />
-          <span className='px-4 '>
-            Car engine oil
-          </span>
-        </p>
+      <div id="main__div">
+        <div
+          className="container mx-auto px-4 py-2">
+          <p className='flex text-gray-600'>
+            <FiClock className='mt-1' />
+            <span className='px-4 '>
+              Car engine oil
+            </span>
+          </p>
 
+        </div>
+        <div className="border-b border-grey-200"></div>
+        <div
+          className="container mx-auto px-4 py-2">
+          <p className='flex text-gray-600'>
+            <FiClock className='mt-1' />
+            <span className='px-4 '>
+              tyre
+            </span>
+          </p>
+
+        </div>
+        <div className="border-b border-grey-200"></div>
+        <div
+          className="container mx-auto px-4 py-2">
+          <p className='flex text-gray-600'>
+            <FiClock className='mt-1' />
+            <span className='px-4 '>
+              car care
+            </span>
+          </p>
+
+        </div>
+        <div className="border-b border-grey-200"></div>
+        <div
+          className="container mx-auto px-4 py-2">
+          <p className='flex text-gray-600'>
+            <FiClock className='mt-1' />
+            <span className='px-4 '>
+              Bumper
+            </span>
+          </p>
+
+        </div>
+        <div className="border-b border-grey-200"></div>
+        <div
+          className="container mx-auto px-4 py-2">
+          <p className='flex text-gray-600'>
+            <FiClock className='mt-1' />
+            <span className='px-4 '>
+              Car audio
+            </span>
+          </p>
+
+        </div>
+        <div className="border-b border-grey-200"></div>
+        <div
+          className="container mx-auto px-4 py-2">
+          <p className='flex text-gray-600'>
+            <FiClock className='mt-1' />
+            <span className='px-4 '>
+              Battery
+            </span>
+          </p>
+
+        </div>
       </div>
-      <div className="border-b border-grey-200"></div>
-      <div
-        className="container mx-auto px-4 py-2">
-        <p className='flex text-gray-600'>
-          <FiClock className='mt-1' />
-          <span className='px-4 '>
-            tyre
-          </span>
-        </p>
-
-      </div>
-      <div className="border-b border-grey-200"></div>
-      <div
-        className="container mx-auto px-4 py-2">
-        <p className='flex text-gray-600'>
-          <FiClock className='mt-1' />
-          <span className='px-4 '>
-            car care
-          </span>
-        </p>
-
-      </div>
-      <div className="border-b border-grey-200"></div>
-      <div
-        className="container mx-auto px-4 py-2">
-        <p className='flex text-gray-600'>
-          <FiClock className='mt-1' />
-          <span className='px-4 '>
-            Bumper
-          </span>
-        </p>
-
-      </div>
-      <div className="border-b border-grey-200"></div>
-      <div
-        className="container mx-auto px-4 py-2">
-        <p className='flex text-gray-600'>
-          <FiClock className='mt-1' />
-          <span className='px-4 '>
-            Car audio
-          </span>
-        </p>
-
-      </div>
-      <div className="border-b border-grey-200"></div>
-      <div
-        className="container mx-auto px-4 py-2">
-        <p className='flex text-gray-600'>
-          <FiClock className='mt-1' />
-          <span className='px-4 '>
-            Battery
-          </span>
-        </p>
-
-      </div>
-
 
 
     </>

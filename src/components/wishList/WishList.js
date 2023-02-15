@@ -22,7 +22,7 @@ function WishList() {
   ];
   return (
     <>
-      <div className=" py-2 ">
+      <div className=" py-2 " >
         <div className="px-4 py-2 border-b border-gray-300">
           <p className="cursor-pointer flex" onClick={() => navigate(-1)}>
             {" "}
@@ -31,30 +31,33 @@ function WishList() {
         </div>
         <div className="border-b border-grey-200"></div>
       </div>
-      {wishListArray.map((item) => {
-        return (
-          <div className="px-2 py-2">
-            <div className="border border-gray-300 rounded-md py-2">
-              <div className="flex justify-between py-3">
-                <div className="flex">
-                  <img
-                    className="w-14 h-14 px-1 py-1 rounded-lg"
-                    src={item.image}
-                    alt="product"
-                  />
-                  <div className="px-2">
-                    <p className="text-gray-600 text-xs">{item.des}</p>
-                    <p className="text-gray-600 text-xs flex">
-                      <IoPricetagOutline className="mt-1" /> &nbsp; From{" "}
-                      {item.price}
-                    </p>
+      <div id="main__div">
+        {wishListArray.map((item) => {
+          return (
+            <div className="px-2 py-2">
+              <div className="border border-gray-300 rounded-md py-2">
+                <div className="flex justify-between py-3">
+                  <div className="flex">
+                    <img
+                      className="w-14 h-14 px-1 py-1 rounded-lg"
+                      src={item.image}
+                      alt="product"
+                    />
+                    <div className="px-2">
+                      <p className="text-gray-600 text-xs">{item.des}</p>
+                      <p className="text-gray-600 text-xs flex">
+                        <IoPricetagOutline className="mt-1" /> &nbsp; From{" "}
+                        {item.price}
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        );
-      })}
+
+          );
+        })}
+      </div>
     </>
   );
 }

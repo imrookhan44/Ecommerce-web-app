@@ -27,6 +27,11 @@ code {
   outline: grey solid 1px;
 }
 
+#counter__div button {
+  height: 1.75rem !important;
+
+}
+
 
 @media screen and (max-width: 800px) {
   #product__image {
@@ -76,4 +81,15 @@ code {
     width: 3rem !important;
     height: 10vh;
   }
+}
+
+@media screen and (min-width: 800px) {
+  #main__div {
+    margin: 30px 200px;
+  }
+
+  #recommend_div {
+    margin: 30px 200px;
+  }
+
 }
