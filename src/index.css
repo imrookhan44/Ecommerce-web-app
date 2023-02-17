@@ -17,7 +17,7 @@ code {
 }
 
 #product__image {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
@@ -65,7 +65,7 @@ code {
 @media screen and (max-width: 534px) {
   #first_icon {
     width: 4rem !important;
-    height: 13vh;
+    height: 9vh;
   }
 }
 
