@@ -64,8 +64,8 @@ code {
 
 @media screen and (max-width: 534px) {
   #first_icon {
-    width: 4.5rem !important;
-    height: 15vh;
+    width: 4rem !important;
+    height: 13vh;
   }
 }
 

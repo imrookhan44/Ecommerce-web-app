@@ -8,6 +8,8 @@ import cabinFilter from "../../assets/sample/icon_homepage_cat/Cabinfilter.jpg";
 import blackFriday from "../../assets/sample/banners/Banner1.jpg";
 import banner2 from "../../assets/sample/banners/Banner2.jpg";
 import banner3 from "../../assets/sample/banners/Banner3.jpg";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 function Category() {
   const categories = [
     {
@@ -37,6 +39,26 @@ function Category() {
     },
   ];
 
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 4
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 4
+    }
+  };
+
   return (
     <>
       <div className=" mx-auto my-16 px-3 py-3 P-5" id="main__div">
@@ -57,7 +79,26 @@ function Category() {
           </div>
         </div>
         &nbsp;
-        <div className=" gap-1 flex">
+        <Carousel
+          responsive={responsive}
+        // infinite={true}
+        // autoPlay={true}
+        // autoPlaySpeed={2000}
+        // keyBoardControl={true}
+        >
+          {categories.map((category) => (
+            <div className=" w-full bg-white rounded-lg border-0 gap-2 flex">
+              <img
+                className="rounded-t-lg"
+                src={category.image}
+                alt={category.name}
+                id="product__image"
+              />
+            </div>
+          ))}
+
+        </Carousel>
+        {/* <div className=" gap-1 flex">
           {categories.map((category) => (
             <div className=" w-full bg-white rounded-lg border-0">
               <img
@@ -68,7 +109,7 @@ function Category() {
               />
             </div>
           ))}
-        </div>
+        </div> */}
         &nbsp;
         {/* black friday banner  */}
         <div className="w-full">
@@ -95,9 +136,15 @@ function Category() {
           </div>
         </div>
         &nbsp;
-        <div className=" gap-1 flex">
+        <Carousel
+          responsive={responsive}
+          // infinite={true}
+          autoPlay={true}
+          autoPlaySpeed={2000}
+        // keyBoardControl={true}
+        >
           {categories.map((category) => (
-            <div className=" w-full bg-white rounded-lg border-0">
+            <div className=" w-full bg-white rounded-lg border-0 gap-2 flex">
               <img
                 className="rounded-t-lg"
                 src={category.image}
@@ -106,7 +153,8 @@ function Category() {
               />
             </div>
           ))}
-        </div>
+
+        </Carousel>
         &nbsp;
         {/* deal of the day banner  */}
         <div>
