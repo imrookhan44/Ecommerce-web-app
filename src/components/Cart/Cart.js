@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 function Cart() {
   const navigate = useNavigate();
+  const [counter, setCounter] = useState('1')
   return (
     <>
       <div className=" py-2" >
@@ -10,16 +11,16 @@ function Cart() {
           <p className="cursor-pointer flex" onClick={() => navigate(-1)}>
             {" "}
             <IoIosArrowBack size={25} style={{ marginTop: "0.20rem" }} /> &nbsp;
-            My Account
+            My Cart
           </p>
         </div>
         <div className="border-b border-grey-200"></div>
       </div>
       <div id="main__div">
         <div className="px-2">
-          <div className="border border-gray-300 shadow-lg h-96">
+          <div className="border border-gray-300 shadow-lg p-5">
             <div className=" py-2 px-2 flex justify-between bg-slate-100">
-              <div className="image">
+              <div className="image flex">
                 <img
                   className="w-5 h-5 rounded-sm"
                   src="
@@ -28,6 +29,12 @@ function Cart() {
                 "
                   alt="img"
                 />
+                <p
+                  className="
+                  text-gray-500 text-sm px-2"
+                >
+                  Caracestore
+                </p>
               </div>
               <div>
                 <input className="accent-lime-500" type="checkbox" checked />
@@ -40,6 +47,7 @@ function Cart() {
                   src="https://images.unsplash.com/photo-1530018352490-c6eef07fd7e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=418&q=80"
                   alt="img"
                 />
+
               </div>
               <div>
                 <p className="text-gray-500 text-xs px-2">
@@ -70,18 +78,14 @@ function Cart() {
                     className="
                 text-gray-500 text-sm px-2"
                   >
-                    RM60.0
+                    RM60.00
                   </p>
                 </div>
                 <div className="px-2 border-gray-800" id="counter__div">
                   <button className="bg-gray-200 px-2 py-1 ">-</button>
-
                   &nbsp;
-                  <input
-                    className="border-2 border-gray-200 text-center w-8 p-1  h-7  bg-gray-200 "
-                    type="text"
-                    value="1"
-                  />
+
+                  {counter}
                   &nbsp;
                   <button className="bg-gray-200 px-2 py-1 ">+</button>
                 </div>

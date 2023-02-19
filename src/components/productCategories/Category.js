@@ -62,7 +62,7 @@ function Category() {
   return (
     <>
       <div className=" mx-auto my-16 px-3 py-3 P-5" id="main__div">
-        <div className="flex justify-between ">
+        <div className="flex justify-between " style={{ width: "95%" }}>
           <div>
             <p className="text-xl text-gray-700 ">Product Categories</p>
           </div>
@@ -87,7 +87,7 @@ function Category() {
         // keyBoardControl={true}
         >
           {categories.map((category) => (
-            <div className=" w-full bg-white rounded-lg border-0 gap-2 flex">
+            <div className=" w-full bg-white rounded-lg border-0  flex">
               <img
                 className="rounded-t-lg"
                 src={category.image}
@@ -122,7 +122,7 @@ function Category() {
         </div>
       </div>
       <div className=" mx-auto my-16 px-3 py-3" id="main__div">
-        <div className="flex justify-between ">
+        <div className="flex justify-between " style={{ width: "95%" }}>
           <div>
             <p className="text-xl text-gray-700 ">Proton X50 Body Kit</p>
           </div>
