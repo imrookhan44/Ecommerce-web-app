@@ -17,21 +17,37 @@ code {
 }
 
 #product__image {
-  width: 90%;
+  width: 80%;
   height: auto;
 }
 
 #banner {
-  width: 100%;
+  width: 96%;
   height: auto;
   outline: grey solid 1px;
 }
 
+/*
 #counter__div button {
   height: 1.75rem !important;
 
+} */
+
+#image__mainDiv {
+  width: 100%;
 }
 
+.recommended__class {
+  width: 97%;
+}
+
+#counter__div {
+  border: 2px solid rgb(224, 224, 224);
+  padding: 0;
+  background-color: rgb(232, 232, 232);
+  border-radius: 5px;
+
+}
 
 @media screen and (max-width: 800px) {
   #product__image {
@@ -91,5 +107,14 @@ code {
   #recommend_div {
     margin: 30px 200px;
   }
+
+}
+
+@media screen and (max-width: 768px) {
+  .recommended__class {
+    width: 100%;
+    flex-direction: column;
+  }
+
 
 }
