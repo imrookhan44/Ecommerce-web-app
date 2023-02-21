@@ -10,6 +10,14 @@ import banner2 from "../../assets/sample/banners/Banner2.jpg";
 import banner3 from "../../assets/sample/banners/Banner3.jpg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import image1 from '../../assets/sample/products_image/collection_protonx50/image1.jpg'
+import image2 from '../../assets/sample/products_image/collection_protonx50/image2.jpg'
+import image3 from '../../assets/sample/products_image/collection_protonx50/image3.jpg'
+import image4 from '../../assets/sample/products_image/collection_protonx50/image4.jpg'
+import image5 from '../../assets/sample/products_image/collection_protonx50/image5.jpg'
+import image6 from '../../assets/sample/products_image/collection_protonx50/image6.jpg'
+import { IoPricetagOutline } from "react-icons/io5";
+
 function Category() {
   const categories = [
     {
@@ -39,6 +47,46 @@ function Category() {
     },
   ];
 
+  const categories1 = [
+    {
+      id: 1,
+      Des: "Proton X50 Premium Car Seat Extension 🔥Unlock a Better Driving Experience 🔥Leg Rest🔥Proton X50 Accessories",
+      price: 70.00,
+      image: image1
+    },
+    {
+      id: 2,
+      Des: "Sesuai Untuk Proton X50 X70 Saga Iriz Persona Exora Invisible Car Seat Belt Buckle Penyambung Tetap Buckle",
+      price: 90.00,
+      image: image2
+    },
+    {
+      id: 3,
+      Des: "Car Seat Belt Buckle Penyambung Tetap Buckle Buckle Multi-Fungsi Kunci  Buckle Buckle Multi-Fungsi Kunci",
+      price: 30.00,
+      image: image3
+    },
+    {
+      id: 4,
+      Des: "Car Seat Extension 🔥Unlock a Better Driving Experience Better Driving Experience",
+      price: 20.00,
+      image: image4
+    },
+    {
+      id: 5,
+      Des: " Persona Exora Invisible Car Seat Belt Buckle Penyambung Tetap Buckle Buckle Multi-Fungsi Kunci",
+      price: 670.00,
+      image: image5
+    },
+    {
+      id: 6,
+      Des: "Proton X50 Premium Car Seat Extension Unlock a Better",
+      price: 200.00,
+      image: image6
+    },
+
+  ]
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -48,6 +96,25 @@ function Category() {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 4
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 4
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 4
+    }
+  };
+  const responsive1 = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 5
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -81,8 +148,8 @@ function Category() {
         &nbsp;
         <Carousel
           responsive={responsive}
-        // infinite={true}
-        // autoPlay={true}
+          // infinite={true}
+          autoPlay={true}
         // autoPlaySpeed={2000}
         // keyBoardControl={true}
         >
@@ -137,20 +204,33 @@ function Category() {
         </div>
         &nbsp;
         <Carousel
-          responsive={responsive}
+          responsive={responsive1}
           // infinite={true}
           autoPlay={true}
-          autoPlaySpeed={2000}
+        // autoPlaySpeed={2000}
         // keyBoardControl={true}
         >
-          {categories.map((category) => (
-            <div className=" w-full bg-white rounded-lg border-0 gap-2 flex">
+          {categories1.map((category) => (
+            <div className=" w-full bg-white rounded-lg border-0 category__carousel">
               <img
                 className="rounded-t-lg"
                 src={category.image}
                 alt={category.name}
                 id="product__image"
               />
+              <div className="category__description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                {/* {category.Des} */}
+              </div>
+              <p
+                className="flex category__price">
+                <div
+                  className="flex items-center justify-center" >
+                  <IoPricetagOutline />&nbsp;
+                </div>
+                From {category.price} REM
+              </p>
+
             </div>
           ))}
 

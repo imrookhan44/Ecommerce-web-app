@@ -57,7 +57,7 @@ function Profile() {
         <div style={{ background: "rgb(247, 247, 247)" }}
           className="flex flex-col w-11/12  m-auto cursor-pointer  px-2 py-3  mt-5 rounded-lg border  ">
           <div className="flex justify-between align-middle " onClick={() => navigate('../myOrderHistory')}>
-            <p className="text-sm text-gray-600 font-medium">
+            <p className="profile__tag">
               View Order History
             </p>
             <p className="text-sm text-gray-500">
@@ -105,7 +105,7 @@ function Profile() {
         </div>
         <div className="border-b border-grey-200"></div>
         <div className="px-9 py-4">
-          <p className="text-md text-gray-600 font-medium">My Account</p>
+          <p className="profile__tag">My Account</p>
         </div>
 
         {/* My Account */}
@@ -115,7 +115,7 @@ function Profile() {
           onClick={() => navigate('../myProfile')}
         >
           <div className="flex justify-between py-2">
-            <p className="text-xs text-gray-600 font-medium">My Profile</p>
+            <p className="profile__tag">My Profile</p>
             <p className="text-sm text-gray-500">
               <HiChevronRight size={30} className="mt-1" />
             </p>
@@ -127,7 +127,7 @@ function Profile() {
           onClick={() => navigate('../myAddress')}
         >
           <div className="flex justify-between py-2">
-            <p className="text-xs text-gray-600 font-medium">My Address</p>
+            <p className="profile__tag">My Address</p>
             <p className="text-sm text-gray-500">
               <HiChevronRight size={30} className="mt-1" />
             </p>
@@ -140,7 +140,7 @@ function Profile() {
 
             onClick={() => navigate('../myBankAccount')}
           >
-            <p className="text-xs text-gray-600 font-medium">My Bank Account</p>
+            <p className="profile__tag">My Bank Account</p>
             <p className="text-sm text-gray-500">
               <HiChevronRight size={30} className="mt-1" />
             </p>
@@ -153,7 +153,7 @@ function Profile() {
           onClick={() => navigate('../myVouchers')}
         >
           <div className="flex justify-between py-2">
-            <p className="text-xs text-gray-600 font-medium">My Vouchers</p>
+            <p className="profile__tag">My Vouchers</p>
             <p className="text-sm text-gray-500">
               <HiChevronRight size={30} className="mt-1" />
             </p>
