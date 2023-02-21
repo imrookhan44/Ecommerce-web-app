@@ -27,18 +27,23 @@ code {
   outline: grey solid 1px;
 }
 
-/*
-#counter__div button {
-  height: 1.75rem !important;
-
-} */
-
 #image__mainDiv {
   width: 100%;
 }
 
+#image__mainDiv p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3c3c3c;
+  font-style: normal;
+  font-family: sans-serif;
+  line-height: 20px;
+}
+
 .recommended__class {
-  width: 97%;
+  width: 94%;
+  gap: 1rem;
+  margin-left: 10px;
 }
 
 #counter__div {
@@ -48,6 +53,66 @@ code {
   border-radius: 5px;
 
 }
+
+.profile__tag {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3c3c3c;
+  line-height: 20px;
+  font-style: normal;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+
+.cart__paragraph {
+  color: #3c3c3c;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.cart__image {
+  width: 48px;
+  height: 48px;
+}
+
+input.cart__checkbox {
+  width: 24px;
+  height: 24px;
+}
+
+.category__description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  font-style: normal;
+  font-family: sans-serif;
+  width: 85%;
+}
+
+.category__carousel {
+  gap: 1rem;
+}
+
+.category__price {
+  font-size: 20px;
+  font-weight: 400;
+  color: #6d6b6b;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  #image__mainDiv p {
+    font-size: 9px;
+    font-weight: 500;
+    color: #3c3c3c;
+    font-style: normal;
+    font-family: sans-serif;
+    line-height: 16px;
+
+  }
+}
+
 
 @media screen and (max-width: 800px) {
   #product__image {
@@ -90,6 +155,8 @@ code {
     width: 3.5rem !important;
     height: 12vh;
   }
+
+
 }
 
 @media screen and (max-width: 320px) {
@@ -112,9 +179,51 @@ code {
 
 @media screen and (max-width: 768px) {
   .recommended__class {
-    width: 100%;
-    flex-direction: column;
+    width: 97%;
   }
 
+  .category__description {
+    font-size: 8px;
+    width: 50%;
+    padding: 0;
+  }
+
+  .category__price {
+    font-size: 10px;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .category__carousel {
+    gap: 1rem;
+  }
+
+  .category__description {
+    font-size: 8px;
+    width: 90%;
+  }
+
+  .category__price {
+    font-size: 10px;
+    width: 100%;
+  }
+
+  .recommended__class {
+    width: 93%;
+  }
+
+  #image__mainDiv p {
+    font-size: 7px;
+    font-weight: 500;
+    padding: 5px 5px;
+    color: #3c3c3c;
+    font-style: normal;
+    font-family: sans-serif;
+    line-height: 9px;
+
+
+  }
 
 }
