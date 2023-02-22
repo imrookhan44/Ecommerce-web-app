@@ -131,7 +131,7 @@ function Category() {
       <div className=" mx-auto my-16 px-3 py-3 P-5" id="main__div">
         <div className="flex justify-between " style={{ width: "95%" }}>
           <div>
-            <p className="text-xl text-gray-700 ">Product Categories</p>
+            <p className=" recommend_tag">Product Categories</p>
           </div>
           <div>
             <Link
@@ -191,7 +191,7 @@ function Category() {
       <div className=" mx-auto my-16 px-3 py-3" id="main__div">
         <div className="flex justify-between " style={{ width: "95%" }}>
           <div>
-            <p className="text-xl text-gray-700 ">Proton X50 Body Kit</p>
+            <p className="recommend_tag">Proton X50 Body Kit</p>
           </div>
           <div>
             <a
@@ -228,7 +228,7 @@ function Category() {
                   className="flex items-center justify-center" >
                   <IoPricetagOutline />&nbsp;
                 </div>
-                From {category.price} REM
+                From {category.price}
               </p>
 
             </div>
@@ -239,7 +239,7 @@ function Category() {
         {/* deal of the day banner  */}
         <div>
           <div>
-            <p className="text-xl text-gray-700">Deal of the day</p>
+            <p className="recommend_tag">Deal of the day</p>
           </div>
           <div className="w-full">
             <img

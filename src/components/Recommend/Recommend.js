@@ -6,6 +6,9 @@ function Recommend() {
     <>
       <div>
         <div className="cards" id="main__div">
+          <p className="recommend_tag">
+            Recommend to you
+          </p>
           <div className="flex recommended__class">
             <div className="" id="image__mainDiv">
               <div className="max-w-xs rounded overflow-hidden shadow-lg">
@@ -19,7 +22,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -27,7 +30,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -50,7 +53,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -58,7 +61,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -81,7 +84,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -89,7 +92,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -112,7 +115,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -120,7 +123,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -146,7 +149,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -154,7 +157,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -177,7 +180,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -185,7 +188,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -208,7 +211,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -216,7 +219,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -239,7 +242,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -247,7 +250,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -273,7 +276,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -281,7 +284,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -304,7 +307,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -312,7 +315,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -335,7 +338,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -343,7 +346,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -366,7 +369,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -374,7 +377,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -400,7 +403,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -408,7 +411,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -432,7 +435,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -440,7 +443,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -463,7 +466,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -471,7 +474,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -494,7 +497,7 @@ function Recommend() {
                 />
                 <div className="">
                   <p className="text-gray-800  font-medium text-sm
-                  px-2
+                  px-2 para
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -502,7 +505,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex"
+                    className="text-gray-500 text-base font-normal flex price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
