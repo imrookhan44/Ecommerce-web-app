@@ -11,9 +11,10 @@ function Recommend() {
           </p>
           <div className="flex recommended__class">
             <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -21,8 +22,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -30,7 +30,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -41,10 +41,12 @@ function Recommend() {
                   </p>
                 </div>
               </div>
-            </div> <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+            </div>
+            <div className="" id="image__mainDiv">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -52,8 +54,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -61,7 +62,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -72,10 +73,12 @@ function Recommend() {
                   </p>
                 </div>
               </div>
-            </div> <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+            </div>
+            <div className="" id="image__mainDiv">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -83,8 +86,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -92,7 +94,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -103,10 +105,12 @@ function Recommend() {
                   </p>
                 </div>
               </div>
-            </div> <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+            </div>
+            <div className="" id="image__mainDiv">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -114,8 +118,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -123,7 +126,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -138,9 +141,10 @@ function Recommend() {
           </div>
           <div className="flex recommended__class">
             <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -148,8 +152,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -157,7 +160,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -168,10 +171,12 @@ function Recommend() {
                   </p>
                 </div>
               </div>
-            </div> <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+            </div>
+            <div className="" id="image__mainDiv">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -179,8 +184,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -188,7 +192,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -199,10 +203,12 @@ function Recommend() {
                   </p>
                 </div>
               </div>
-            </div> <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+            </div>
+            <div className="" id="image__mainDiv">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -210,8 +216,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -219,7 +224,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -230,10 +235,12 @@ function Recommend() {
                   </p>
                 </div>
               </div>
-            </div> <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+            </div>
+            <div className="" id="image__mainDiv">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -241,8 +248,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -250,7 +256,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -265,9 +271,10 @@ function Recommend() {
           </div>
           <div className="flex recommended__class">
             <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -275,8 +282,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -284,7 +290,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -295,10 +301,12 @@ function Recommend() {
                   </p>
                 </div>
               </div>
-            </div> <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+            </div>
+            <div className="" id="image__mainDiv">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -306,8 +314,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -315,7 +322,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -326,10 +333,12 @@ function Recommend() {
                   </p>
                 </div>
               </div>
-            </div> <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+            </div>
+            <div className="" id="image__mainDiv">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -337,8 +346,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -346,7 +354,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -357,10 +365,12 @@ function Recommend() {
                   </p>
                 </div>
               </div>
-            </div> <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+            </div>
+            <div className="" id="image__mainDiv">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -368,8 +378,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -377,7 +386,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -392,9 +401,10 @@ function Recommend() {
           </div>
           <div className="flex recommended__class">
             <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -402,8 +412,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -411,7 +420,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -424,9 +433,10 @@ function Recommend() {
               </div>
             </div>
             <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -434,8 +444,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -443,7 +452,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -454,10 +463,12 @@ function Recommend() {
                   </p>
                 </div>
               </div>
-            </div> <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+            </div>
+            <div className="" id="image__mainDiv">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -465,8 +476,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -474,7 +484,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div
@@ -485,10 +495,12 @@ function Recommend() {
                   </p>
                 </div>
               </div>
-            </div> <div className="" id="image__mainDiv">
-              <div className="max-w-xs rounded overflow-hidden shadow-lg">
+            </div>
+            <div className="" id="image__mainDiv">
+              <div className=" bg-white rounded-lg border-0 category__carousel">
                 <img
-                  className="w-full"
+                  className="rounded-t-lg"
+
                   src="
 
                 https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
@@ -496,8 +508,7 @@ function Recommend() {
                   alt="Sunset in the mountains"
                 />
                 <div className="">
-                  <p className="text-gray-800  font-medium text-sm
-                  px-2 para
+                  <p className="category__description
 
                    ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -505,7 +516,7 @@ function Recommend() {
                 </div>
                 <div className="  pb-2 text-lg">
                   <p
-                    className="text-gray-500 text-base font-normal flex price"
+                    className="flex category__price"
                   // style={{ textDecoration: "line-through" }}
                   >
                     <div

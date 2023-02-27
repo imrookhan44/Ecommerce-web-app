@@ -37,7 +37,7 @@ function Cart() {
                 </p>
               </div>
               <div className="mt-1">
-                <input className="accent-lime-500 cart__checkbox" type="checkbox" checked />
+                <input className=" cart__checkbox" type="checkbox" checked />
               </div>
             </div>
             <div className=" py-2 px-2 flex justify-between">
@@ -111,6 +111,7 @@ function Cart() {
                 </div>
               </div>
             </div>
+
             <div className=" py-2 px-2 flex justify-between">
               <div className="">
                 <img
@@ -182,7 +183,12 @@ function Cart() {
                 </div>
               </div>
             </div>
-            <div className=" py-2 px-2 flex justify-between bg-slate-100 mt-2">
+          </div>
+        </div>
+        <div className="px-2">
+          <div className="border border-gray-300 shadow-lg p-5 mt-4">
+
+            <div className=" py-2 px-2 flex justify-between bg-slate-100 " >
               <div className="image flex">
                 <img
                   className="rounded-sm cart__image"
@@ -273,24 +279,24 @@ function Cart() {
                 </div>
               </div>
             </div>
-            <div
-              className="cursor-pointer rounded-lg h-12"
-              style={{ backgroundColor: "#8DC63F", padding: "7px", margin: "0 2px", position: "fixed", bottom: "36px", right: "0.7rem", width: "90%" }}
-            >
-              <div className="flex justify-between ">
-                <div>
-                  <p className="text-white text-xs px-1">Total</p>
-                  <p className="text-white text-base px-1 font-semibold
+          </div>
+        </div>
+        <div
+          className="cursor-pointer rounded-lg h-12"
+          style={{ backgroundColor: "#8DC63F", padding: "7px", margin: "0 2px", position: "fixed", bottom: "36px", right: "0.7rem", width: "90%" }}
+        >
+          <div className="flex justify-between ">
+            <div>
+              <p className="text-white text-xs px-1">Total</p>
+              <p className="text-white text-base px-1 font-semibold
                 ">RM60.00</p>
-                </div>
-                <div className="mt-1">
-                  <p className="text-white px-2 pt-1 text-base font-semibold ">Checkout &#62;</p>
-                </div>
-              </div>
+            </div>
+            <div className="mt-1">
+              <p className="text-white px-2 pt-1 text-base font-semibold ">Checkout &#62;</p>
             </div>
           </div>
-
         </div>
+
       </div>
     </>
   );

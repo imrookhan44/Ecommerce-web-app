@@ -29,6 +29,7 @@ code {
 
 #image__mainDiv {
   width: 100%;
+  height: 20vh;
 }
 
 #image__mainDiv .price {
@@ -105,6 +106,7 @@ input.cart__checkbox {
   font-style: normal;
   font-family: sans-serif;
   width: 85%;
+  padding: 2px 5px !important;
 }
 
 .recommend_tag {
@@ -112,11 +114,13 @@ input.cart__checkbox {
   font-weight: 500;
   line-height: 24px;
   color: #3c3c3c;
-  margin-left: 12px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .category__carousel {
   gap: 1rem;
+  height: 20vh;
 }
 
 .category__price {
@@ -128,6 +132,11 @@ input.cart__checkbox {
   font-family: sans-serif;
   line-height: 20px;
 }
+
+input[type="checkbox"] {
+  accent-color: #689f1c;
+}
+
 
 @media screen and (max-width: 1024px) {
   #image__mainDiv .para {
@@ -243,6 +252,7 @@ input.cart__checkbox {
     width: 93%;
     grid-template-columns: repeat(2, 1fr);
   }
+
 
   #image__mainDiv .para {
     font-size: 8px;
