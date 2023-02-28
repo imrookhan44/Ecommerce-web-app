@@ -211,7 +211,7 @@ function Category() {
         // keyBoardControl={true}
         >
           {categories1.map((category) => (
-            <div className=" w-full bg-white rounded-lg border-0 category__carousel">
+            <div className="w-full bg-white rounded-lg border-0 category__carousel">
               <img
                 className="rounded-t-lg"
                 src={category.image}
