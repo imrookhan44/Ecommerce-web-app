@@ -11,14 +11,11 @@ function Recommend() {
           </p>
           <div className="flex recommended__class">
             <div className="" id="image__mainDiv">
-              <div className=" bg-white rounded-lg border-0 category__carousel">
+              <div className="w-full bg-white rounded-lg border-0 category__carousel">
                 <img
                   className="rounded-t-lg"
 
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
+                  src={require('./../../assets/sample/products_image/image1.jpg')}
                   alt="Sunset in the mountains"
                 />
                 <div className="">
@@ -47,10 +44,7 @@ function Recommend() {
                 <img
                   className="rounded-t-lg"
 
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
+                  src={require('./../../assets/sample/products_image/image2.jpg')}
                   alt="Sunset in the mountains"
                 />
                 <div className="">
@@ -79,10 +73,7 @@ function Recommend() {
                 <img
                   className="rounded-t-lg"
 
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
+                  src={require('./../../assets/sample/products_image/image3.jpg')}
                   alt="Sunset in the mountains"
                 />
                 <div className="">
@@ -111,10 +102,7 @@ function Recommend() {
                 <img
                   className="rounded-t-lg"
 
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
+                  src={require('./../../assets/sample/products_image/image4.jpg')}
                   alt="Sunset in the mountains"
                 />
                 <div className="">
@@ -145,10 +133,7 @@ function Recommend() {
                 <img
                   className="rounded-t-lg"
 
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
+                  src={require('./../../assets/sample/products_image/image5.jpg')}
                   alt="Sunset in the mountains"
                 />
                 <div className="">
@@ -177,10 +162,7 @@ function Recommend() {
                 <img
                   className="rounded-t-lg"
 
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
+                  src={require('./../../assets/sample/products_image/image6.jpg')}
                   alt="Sunset in the mountains"
                 />
                 <div className="">
@@ -209,10 +191,7 @@ function Recommend() {
                 <img
                   className="rounded-t-lg"
 
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
+                  src={require('./../../assets/sample/products_image/collection_protonx50/image1.jpg')}
                   alt="Sunset in the mountains"
                 />
                 <div className="">
@@ -241,10 +220,7 @@ function Recommend() {
                 <img
                   className="rounded-t-lg"
 
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
+                  src={require('./../../assets/sample/products_image/collection_protonx50/image2.jpg')}
                   alt="Sunset in the mountains"
                 />
                 <div className="">
@@ -275,10 +251,7 @@ function Recommend() {
                 <img
                   className="rounded-t-lg"
 
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
+                  src={require('./../../assets/sample/products_image/collection_protonx50/image3.jpg')}
                   alt="Sunset in the mountains"
                 />
                 <div className="">
@@ -307,10 +280,7 @@ function Recommend() {
                 <img
                   className="rounded-t-lg"
 
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
+                  src={require('./../../assets/sample/products_image/collection_protonx50/image4.jpg')}
                   alt="Sunset in the mountains"
                 />
                 <div className="">
@@ -339,10 +309,7 @@ function Recommend() {
                 <img
                   className="rounded-t-lg"
 
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
+                  src={require('./../../assets/sample/products_image/collection_protonx50/image5.jpg')}
                   alt="Sunset in the mountains"
                 />
                 <div className="">
@@ -371,10 +338,7 @@ function Recommend() {
                 <img
                   className="rounded-t-lg"
 
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
+                  src={require('./../../assets/sample/products_image/collection_protonx50/image6.jpg')}
                   alt="Sunset in the mountains"
                 />
                 <div className="">
@@ -399,136 +363,7 @@ function Recommend() {
               </div>
             </div>
           </div>
-          <div className="flex recommended__class">
-            <div className="" id="image__mainDiv">
-              <div className=" bg-white rounded-lg border-0 category__carousel">
-                <img
-                  className="rounded-t-lg"
 
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
-                  alt="Sunset in the mountains"
-                />
-                <div className="">
-                  <p className="category__description
-
-                   ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-                </div>
-                <div className="  pb-2 text-lg">
-                  <p
-                    className="flex category__price"
-                  // style={{ textDecoration: "line-through" }}
-                  >
-                    <div
-                      className="flex items-center justify-center" >
-                      <IoPricetagOutline />&nbsp;
-                    </div>
-                    From 200REM
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="" id="image__mainDiv">
-              <div className=" bg-white rounded-lg border-0 category__carousel">
-                <img
-                  className="rounded-t-lg"
-
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
-                  alt="Sunset in the mountains"
-                />
-                <div className="">
-                  <p className="category__description
-
-                   ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-                </div>
-                <div className="  pb-2 text-lg">
-                  <p
-                    className="flex category__price"
-                  // style={{ textDecoration: "line-through" }}
-                  >
-                    <div
-                      className="flex items-center justify-center" >
-                      <IoPricetagOutline />&nbsp;
-                    </div>
-                    From 200REM
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="" id="image__mainDiv">
-              <div className=" bg-white rounded-lg border-0 category__carousel">
-                <img
-                  className="rounded-t-lg"
-
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
-                  alt="Sunset in the mountains"
-                />
-                <div className="">
-                  <p className="category__description
-
-                   ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-                </div>
-                <div className="  pb-2 text-lg">
-                  <p
-                    className="flex category__price"
-                  // style={{ textDecoration: "line-through" }}
-                  >
-                    <div
-                      className="flex items-center justify-center" >
-                      <IoPricetagOutline />&nbsp;
-                    </div>
-                    From 200REM
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="" id="image__mainDiv">
-              <div className=" bg-white rounded-lg border-0 category__carousel">
-                <img
-                  className="rounded-t-lg"
-
-                  src="
-
-                https://images.unsplash.com/photo-1635863499244-8fb565faf7c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
-                "
-                  alt="Sunset in the mountains"
-                />
-                <div className="">
-                  <p className="category__description
-
-                   ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-                </div>
-                <div className="  pb-2 text-lg">
-                  <p
-                    className="flex category__price"
-                  // style={{ textDecoration: "line-through" }}
-                  >
-                    <div
-                      className="flex items-center justify-center" >
-                      <IoPricetagOutline />&nbsp;
-                    </div>
-                    From 200REM
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
 
 
 
