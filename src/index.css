@@ -137,6 +137,10 @@ input[type="checkbox"] {
   accent-color: #689f1c;
 }
 
+.react-multi-carousel-list {
+  /* overflow: visible !important; */
+}
+
 
 @media screen and (max-width: 1024px) {
   #image__mainDiv .para {
@@ -155,6 +159,11 @@ input[type="checkbox"] {
 @media screen and (max-width: 800px) {
   #product__image {
     width: 85px;
+    height: auto;
+  }
+
+  #product__image1 {
+    width: 95%;
     height: auto;
   }
 

@@ -110,19 +110,23 @@ function Category() {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 5
+      items: 5,
+      partialVisibilityGutter: 40
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 5
+      items: 5,
+      partialVisibilityGutter: 40
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 4
+      items: 4,
+      partialVisibilityGutter: 30
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 3
+      items: 2,
+      partialVisibilityGutter: 30
     }
   };
 
@@ -204,6 +208,7 @@ function Category() {
         </div>
         &nbsp;
         <Carousel
+          partialVisible={true}
           responsive={responsive1}
           // infinite={true}
           autoPlay={true}
@@ -216,7 +221,7 @@ function Category() {
                 className="rounded-t-lg"
                 src={category.image}
                 alt={category.name}
-                id="product__image"
+                id="product__image1"
               />
               <div className="category__description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
