@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
 
 body {
   margin: 0;
@@ -102,9 +103,10 @@ input.cart__checkbox {
 .category__description {
   font-size: 14px;
   font-weight: 500;
-  color: #000000;
+  color: #3c3c3c;
+  line-height: 20px;
   font-style: normal;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   width: 100%;
   padding: 2px 5px !important;
 }
@@ -129,7 +131,7 @@ input.cart__checkbox {
   font-weight: 300;
   color: #3c3c3c;
   font-style: normal;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 20px;
 }
 
@@ -230,7 +232,7 @@ input[type="checkbox"] {
   }
 
   .category__description {
-    font-size: 12px;
+    font-size: 14px;
     width: 100%;
     padding: 0;
   }
@@ -248,7 +250,7 @@ input[type="checkbox"] {
   }
 
   .category__description {
-    font-size: 12px;
+    font-size: 14px;
     width: 100%;
   }
 

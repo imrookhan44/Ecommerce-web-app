@@ -1,8 +1,29 @@
 import React from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 function MyOrderHistory() {
   const navigate = useNavigate();
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 4
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 2
+    }
+  };
   return (
     <>
       <div className=" py-2 " >
@@ -16,44 +37,58 @@ function MyOrderHistory() {
         <div className="border-b border-grey-200"></div>
       </div>
       <div id="main__div">
-        <div className="flex">
+        <div className="flex" style={{
+          overflowX: "hidden",
+          scrollbarWidth: "none",
+          msOverflowStyle: "none",
+
+          "&::-webkit-scrollbar": {
+            display: "none"
+          }
+        }}
+          onWheel={(e) => {
+            e.currentTarget.scrollLeft += e.deltaY;
+          }}
+        >
           <div className="px-2">
-            <div className="bg-gray-100 px-2 py-2 text-xs rounded-xl">
+            <div className="bg-gray-100 px-2 py-2 text-xs rounded-xl w-16">
               <p className="text-gray-500 font-medium">To Pay</p>
             </div>
           </div>
           <div className="px-2">
-            <div className="bg-gray-100 px-2 py-2 text-xs rounded-xl">
+            <div className="bg-gray-100 px-2 py-2 text-xs rounded-xl w-16">
               <p className="text-gray-500 font-medium">To Ship</p>
             </div>
           </div>
           <div className="px-2">
-            <div className="bg-gray-100  px-2 py-2 text-xs rounded-xl">
+            <div className="bg-gray-100  px-2 py-2 text-xs rounded-xl w-20">
               <p className="text-gray-500 font-medium">To Receive</p>
             </div>
           </div>
           <div className="px-2">
-            <div className="bg-gray-100  px-2 py-2 text-xs rounded-xl">
+            <div className="bg-gray-100  px-2 py-2 text-xs rounded-xl w-28">
               <p className="text-gray-500 font-medium">Order Completed</p>
             </div>
           </div>
           <div className="px-2">
-            <div className="bg-gray-100  px-2 py-2 text-xs rounded-xl">
+            <div className="bg-gray-100  px-2 py-2 text-xs rounded-xl w-16">
               <p className="text-gray-500 font-medium">To Rate</p>
             </div>
           </div>
           <div className="px-2">
-            <div className="bg-gray-100  px-2 py-2 text-xs rounded-xl">
+            <div className="bg-gray-100  px-2 py-2 text-xs rounded-xl w-32">
               <p className="text-gray-500 font-medium">Return / Cancelled</p>
             </div>
           </div>
         </div>
+
+
         <div className="border-b mt-2" />
         <div>
           <div className="mt-2 px-2">
             <p className="text-gray-800 font-normal">Caracestore</p>
           </div>
-          <div className="flex  justify-between">
+          <div className="flex  justify-around">
             <div className="px-2 py-2">
               <p className="text-xs text-gray-500">
                 KLIGHT K2 LED Headlight 6000k 60W LED
