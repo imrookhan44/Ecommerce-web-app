@@ -105,7 +105,7 @@ input.cart__checkbox {
   color: #000000;
   font-style: normal;
   font-family: sans-serif;
-  width: 85%;
+  width: 100%;
   padding: 2px 5px !important;
 }
 
@@ -230,13 +230,13 @@ input[type="checkbox"] {
   }
 
   .category__description {
-    font-size: 8px;
-    width: 50%;
+    font-size: 12px;
+    width: 100%;
     padding: 0;
   }
 
   .category__price {
-    font-size: 10px;
+    font-size: 11px;
     width: 100%;
   }
 
@@ -248,12 +248,12 @@ input[type="checkbox"] {
   }
 
   .category__description {
-    font-size: 8px;
-    width: 90%;
+    font-size: 12px;
+    width: 100%;
   }
 
   .category__price {
-    font-size: 10px;
+    font-size: 11px;
     width: 100%;
   }
 

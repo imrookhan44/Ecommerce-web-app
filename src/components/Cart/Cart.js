@@ -18,8 +18,8 @@ function Cart() {
       </div>
       <div id="main__div">
         <div className="px-2">
-          <div className="border border-gray-300 shadow-lg p-5">
-            <div className=" py-2 px-2 flex justify-between bg-slate-100">
+          <div className="border border-gray-300 shadow-lg p-5" style={{ borderRadius: "20px" }}>
+            <div className=" py-2 px-2 flex justify-between " style={{ background: "#F7F7F7" }}>
               <div className="image flex">
                 <img
                   className="rounded-sm cart__image"
@@ -186,9 +186,9 @@ function Cart() {
           </div>
         </div>
         <div className="px-2">
-          <div className="border border-gray-300 shadow-lg p-5 mt-4">
+          <div className="border border-gray-300 shadow-lg p-5 mt-4" style={{ borderRadius: "20px" }}>
 
-            <div className=" py-2 px-2 flex justify-between bg-slate-100 " >
+            <div className=" py-2 px-2 flex justify-between  " style={{ background: "#F7F7F7" }} >
               <div className="image flex">
                 <img
                   className="rounded-sm cart__image"
@@ -292,7 +292,7 @@ function Cart() {
                 ">RM60.00</p>
             </div>
             <div className="mt-1">
-              <p className="text-white px-2 pt-1 text-base font-semibold ">Checkout &#62;</p>
+              <p className="text-white px-2 pt-1  font-semibold" style={{ fontSize: "15px" }}>Checkout &#62;</p>
             </div>
           </div>
         </div>

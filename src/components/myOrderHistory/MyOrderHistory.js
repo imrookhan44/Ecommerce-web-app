@@ -10,7 +10,7 @@ function MyOrderHistory() {
           <p className="cursor-pointer flex" onClick={() => navigate(-1)}>
             {" "}
             <IoIosArrowBack size={25} style={{ marginTop: "0.20rem" }} /> &nbsp;
-            Voucher Details
+            My Order History
           </p>
         </div>
         <div className="border-b border-grey-200"></div>
@@ -53,10 +53,19 @@ function MyOrderHistory() {
           <div className="mt-2 px-2">
             <p className="text-gray-800 font-normal">Caracestore</p>
           </div>
-          <div className="px-2 py-2">
-            <p className="text-xs text-gray-500">
-              KLIGHT K2 LED Headlight 6000k 60W LED
-            </p>
+          <div className="flex  justify-between">
+            <div className="px-2 py-2">
+              <p className="text-xs text-gray-500">
+                KLIGHT K2 LED Headlight 6000k 60W LED
+              </p>
+            </div>
+            <div className="">
+              <img
+                src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                alt="img"
+                className="w-20 h-20"
+              />
+            </div>
           </div>
           <div className="px-2">
             <p className="text-sm text-gray-500">Variation: H1 x2</p>
