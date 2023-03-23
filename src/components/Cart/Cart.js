@@ -18,8 +18,8 @@ function Cart() {
       </div>
       <div id="main__div">
         <div className="px-2">
-          <div className="border border-gray-300 shadow-lg p-5" style={{ borderRadius: "20px" }}>
-            <div className=" py-2 px-2 flex justify-between " style={{ background: "#F7F7F7" }}>
+          <div className="border border-gray-300 shadow-lg " style={{ borderRadius: "10px" }}>
+            <div className=" py-2 px-2 flex justify-between " style={{ background: "#F7F7F7", borderTopLeftRadius: "12px", borderTopRightRadius: "12px" }}>
               <div className="image flex">
                 <img
                   className="rounded-sm cart__image"
@@ -40,7 +40,9 @@ function Cart() {
                 <input className=" cart__checkbox" type="checkbox" checked />
               </div>
             </div>
-            <div className=" py-2 px-2 flex justify-between">
+            <div className="flex justify-between" style={{
+              padding: "11px"
+            }}>
               <div className="">
                 <img
                   className="h-8 w-20 rounded-sm"
@@ -71,7 +73,9 @@ function Cart() {
               <span className="text-xs">Carbon skin color &#62;</span>
             </div>
             &nbsp;
-            <div className="">
+            <div className="" style={{
+              padding: "11px"
+            }}>
               <div className="flex justify-between">
                 <div>
                   <p
@@ -143,7 +147,9 @@ function Cart() {
               <span className="text-xs">Carbon skin color &#62;</span>
             </div>
             &nbsp;
-            <div className="">
+            <div className="" style={{
+              padding: "11px"
+            }}>
               <div className="flex justify-between">
                 <div>
                   <p
@@ -164,7 +170,9 @@ function Cart() {
               </div>
               &nbsp;
               <div className="border-b border-grey-200 px-2"></div>
-              <div className="flex justify-between px-2 ">
+              <div className="flex justify-between px-2 " style={{
+                padding: "11px"
+              }}>
                 <div>
                   <p
                     className="
@@ -186,9 +194,9 @@ function Cart() {
           </div>
         </div>
         <div className="px-2">
-          <div className="border border-gray-300 shadow-lg p-5 mt-4" style={{ borderRadius: "20px" }}>
+          <div className="border border-gray-300 shadow-lg  mt-4" style={{ borderRadius: "10px" }}>
 
-            <div className=" py-2 px-2 flex justify-between  " style={{ background: "#F7F7F7" }} >
+            <div className=" py-2 px-2 flex justify-between  " style={{ background: "#F7F7F7", borderTopLeftRadius: "12px", borderTopRightRadius: "12px" }} >
               <div className="image flex">
                 <img
                   className="rounded-sm cart__image"
@@ -239,7 +247,9 @@ function Cart() {
               <span className="text-xs">Carbon skin color &#62;</span>
             </div>
             &nbsp;
-            <div className="">
+            <div className="" style={{
+              padding: "11px"
+            }}>
               <div className="flex justify-between">
                 <div>
                   <p
