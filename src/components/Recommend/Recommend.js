@@ -34,7 +34,7 @@ function Recommend() {
                       className="flex items-center justify-center" >
                       <IoPricetagOutline />&nbsp;
                     </div>
-                    From 200REM
+                    From RM32.00
                   </p>
                 </div>
               </div>
@@ -63,7 +63,7 @@ function Recommend() {
                       className="flex items-center justify-center" >
                       <IoPricetagOutline />&nbsp;
                     </div>
-                    From 200REM
+                    From RM32.00
                   </p>
                 </div>
               </div>
@@ -92,7 +92,7 @@ function Recommend() {
                       className="flex items-center justify-center" >
                       <IoPricetagOutline />&nbsp;
                     </div>
-                    From 200REM
+                    From RM32.00
                   </p>
                 </div>
               </div>
@@ -121,7 +121,7 @@ function Recommend() {
                       className="flex items-center justify-center" >
                       <IoPricetagOutline />&nbsp;
                     </div>
-                    From 200REM
+                    From RM32.00
                   </p>
                 </div>
               </div>
@@ -152,7 +152,7 @@ function Recommend() {
                       className="flex items-center justify-center" >
                       <IoPricetagOutline />&nbsp;
                     </div>
-                    From 200REM
+                    From RM32.00
                   </p>
                 </div>
               </div>
@@ -181,7 +181,7 @@ function Recommend() {
                       className="flex items-center justify-center" >
                       <IoPricetagOutline />&nbsp;
                     </div>
-                    From 200REM
+                    From RM32.00
                   </p>
                 </div>
               </div>
@@ -210,7 +210,7 @@ function Recommend() {
                       className="flex items-center justify-center" >
                       <IoPricetagOutline />&nbsp;
                     </div>
-                    From 200REM
+                    From RM32.00
                   </p>
                 </div>
               </div>
@@ -239,7 +239,7 @@ function Recommend() {
                       className="flex items-center justify-center" >
                       <IoPricetagOutline />&nbsp;
                     </div>
-                    From 200REM
+                    From RM32.00
                   </p>
                 </div>
               </div>
@@ -270,7 +270,7 @@ function Recommend() {
                       className="flex items-center justify-center" >
                       <IoPricetagOutline />&nbsp;
                     </div>
-                    From 200REM
+                    From RM32.00
                   </p>
                 </div>
               </div>
@@ -299,7 +299,7 @@ function Recommend() {
                       className="flex items-center justify-center" >
                       <IoPricetagOutline />&nbsp;
                     </div>
-                    From 200REM
+                    From RM32.00
                   </p>
                 </div>
               </div>
@@ -328,7 +328,7 @@ function Recommend() {
                       className="flex items-center justify-center" >
                       <IoPricetagOutline />&nbsp;
                     </div>
-                    From 200REM
+                    From RM32.00
                   </p>
                 </div>
               </div>
@@ -357,7 +357,7 @@ function Recommend() {
                       className="flex items-center justify-center" >
                       <IoPricetagOutline />&nbsp;
                     </div>
-                    From 200REM
+                    From RM32.00
                   </p>
                 </div>
               </div>
